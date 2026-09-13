@@ -1,0 +1,15 @@
+﻿{
+    "name":  "taskpad51",
+    "version":  "0.3.3",
+    "description":  "TaskPad51: Hooks LCD+OLED (dir/model/ctx used/total) + hub MCP",
+    "author":  {
+                   "name":  "Cache Allow"
+               },
+    "license":  "MIT",
+    "keywords":  [
+                     "taskpad",
+                     "hooks",
+                     "lcd"
+                 ],
+    "hooks":  "hooks/hooks.json"
+}

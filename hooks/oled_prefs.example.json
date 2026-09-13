@@ -1,0 +1,5 @@
+{
+  "model": "GLM-5.3-Flash",
+  "context_total": 1000000,
+  "note": "Optional OLED overrides when ZCode hooks omit model/ctx"
+}

@@ -1,0 +1,26 @@
+# secrets & local
+.env
+**/secrets.h
+**/oled_prefs.json
+**/oled_usage_cache.json
+**/hook_inflight.json
+**/last_hook.json
+**/hooks_ring.jsonl
+bridge/inbox/*
+!bridge/inbox/.gitkeep
+
+# build junk
+__pycache__/
+*.pyc
+*.obj
+*.lst
+*.m51
+**/build/
+**/obj/
+.DS_Store
+Thumbs.db
+
+# local tooling
+arduino-cli/
+*_patch*.py
+_*.py

@@ -1,0 +1,34 @@
+{
+  "port": "COM3",
+  "baud": 9600,
+  "default_target": "zcode",
+  "control_host": "127.0.0.1",
+  "control_port": 8765,
+  "async_wait_seconds": 1800,
+  "task_prompt": "User pressed START on TaskPad51. Do a short useful desk task, push LCD progress, reply in chat.",
+  "adapters": {
+    "cursor": {
+      "enabled": false,
+      "api_base": "https://api.cursor.com",
+      "poll_seconds": 5,
+      "timeout_seconds": 600
+    },
+    "zcode": {
+      "enabled": true,
+      "mode": "hub",
+      "webhook_url": "",
+      "note": "Prefer ZCode hooks + hub HTTP; set launch_on_start false for detect-only START"
+    },
+    "grok": {
+      "enabled": true,
+      "mode": "webhook",
+      "webhook_url": "",
+      "wait_seconds": 1800,
+      "note": "Set GROK_WEBHOOK_URL in .env; START launches only if launch_on_start true"
+    }
+  },
+  "transport": "auto",
+  "wifi_tunnel_host": "0.0.0.0",
+  "wifi_tunnel_port": 8870,
+  "launch_on_start": false
+}

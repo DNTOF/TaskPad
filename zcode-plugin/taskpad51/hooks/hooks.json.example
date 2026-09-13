@@ -1,0 +1,100 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad SessionStart"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad UserPromptSubmit"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad PreToolUse"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad PermissionRequest"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad PostToolUse"
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad PostToolUseFailure"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad Stop"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"{{PUSH_LCD}}\"",
+            "timeoutMs": 5000,
+            "statusMessage": "TaskPad SessionEnd"
+          }
+        ]
+      }
+    ]
+  }
+}

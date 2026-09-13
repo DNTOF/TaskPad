@@ -1,0 +1,5 @@
+#ifndef TASKPAD_CONFIG_H
+#define TASKPAD_CONFIG_H
+#define FOSC_HZ 11059200UL
+#define BUZZER_ACTIVE_LOW 1
+#endif

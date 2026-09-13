@@ -1,0 +1,19 @@
+{
+  "name": "taskpad51-local",
+  "description": "Local TaskPad51 marketplace",
+  "pluginRoot": ".",
+  "plugins": [
+    {
+      "name": "taskpad51",
+      "source": "./taskpad51",
+      "description": "TaskPad51 Hooks LCD+OLED + hub MCP",
+      "version": "0.3.3",
+      "category": "tools",
+      "tags": [
+        "mcu",
+        "com",
+        "serial"
+      ]
+    }
+  ]
+}
