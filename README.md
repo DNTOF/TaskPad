@@ -31,7 +31,6 @@ Grok     webhook routine + taskpad_ctl.py
 | `bridge/` | Python hub: serial/Wi-Fi mux, HTTP API, MCP |
 | `zcode-plugin/` | Local marketplace plugin (hooks + MCP client) |
 | `hooks/` | Standalone `push_lcd.py` (same as plugin hooks) |
-| `buzzer_music/` | Optional buzzer demo |
 | `PROTOCOL.md` | UART line protocol |
 
 ## Hardware (defaults)
