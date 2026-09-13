@@ -104,4 +104,4 @@ OLED ctx is read from ZCode `~/.zcode/cli/rollout/model-io-<session>.jsonl` when
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+[GPLv3](LICENSE) — Copyright (C) 2026 DNTOF / Cache Allow
